@@ -1,0 +1,55 @@
+body{
+	text-align: center;
+}
+.vasco{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#pele{
+	width: 100%;
+	height:23vh;
+	background-color:rgb(0,102,51);
+}
+#logo{
+	margin-top:28px;
+	margin-left:-1340px;
+}
+#placeholder-text::placeholder{
+    color:rgb(0, 102, 0);
+}
+#placeholder-text{
+	margin-left:1150px;
+	margin-top: -120px;
+    font-size:25;
+}
+h1{
+	font:sans-serif;
+	margin-top:30px;
+}
+h2{
+	font:sans-serif;
+	margin-top:30px;
+}
+li{
+	list-style-position: inside;
+	font-size:25px;
+}
+footer{
+	height:4vh;
+	border-style: ridge;
+	border-width: 20px;
+	border-color: rgb(40, 132, 0);
+	background: rgb(40, 132, 0);
+	color: rgb(255, 255, 255);
+	font-size: 30px;
+}
+@media screen and (max-width 760px){
+	h1{
+		color: green;
+	}
+}
+@media(orientation: landscape){
+
+	
+}
